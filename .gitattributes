@@ -1,0 +1,6 @@
+# Keep LF endings on the server; nothing here depends on Windows line endings.
+* text=auto eol=lf
+
+# Binary data files
+*.db binary
+*.png binary

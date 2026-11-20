@@ -1,0 +1,19 @@
+# Python virtualenv and caches - recreated from requirements.txt on the server
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime data: the database fills with users' chats once the app is live.
+# learned_faq.json is NOT ignored - it ships with the answers you added.
+support.db
+support_history.db
+run_out.log
+run_err.log
+stderr*.log

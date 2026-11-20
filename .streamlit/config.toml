@@ -1,0 +1,18 @@
+# App startup.
+#
+# No [theme] block here on purpose: leaving the theme unset keeps Streamlit's own
+# Light / Dark / Use system setting switch available in the app's Settings menu.
+# The ChatGPT dark and light palettes are defined in app.py instead.
+
+[server]
+headless = true
+fileWatcherType = "none"      # no watcher thread; reloads are not needed while using the app
+runOnSave = false
+address = "localhost"
+
+[browser]
+gatherUsageStats = false      # skips the startup telemetry request
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "developer"      # shows the toolbar menu that holds Settings (theme switch)
