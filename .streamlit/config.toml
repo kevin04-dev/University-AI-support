@@ -8,7 +8,7 @@
 headless = true
 fileWatcherType = "none"      # no watcher thread; reloads are not needed while using the app
 runOnSave = false
-address = "localhost"
+address = "0.0.0.0"            # bind all interfaces so hosted platforms can reach the app
 
 [browser]
 gatherUsageStats = false      # skips the startup telemetry request
